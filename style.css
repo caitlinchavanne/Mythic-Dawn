@@ -1,0 +1,102 @@
+@font-face {
+    font-family: daedra;
+    src: url(fonts/Daedra.otf);
+}
+
+@font-face {
+    font-family: cyrodiil;
+    src: url(fonts/Cyrodiil.otf);
+}
+
+.normalfont{
+    font-family: cyrodiil;
+    font-size: 20px;
+}
+
+.hovertext {
+    text-decoration: none;
+    color:white;
+    font-family: daedra;
+    font-size: 18px;
+}
+
+.hovertext:hover {
+    font-family: cyrodiil;
+    font-size: 20px;
+}
+
+body {
+     background-image: url(images/skyrimflag.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+    color:white;
+    font-family: cyrodiil;
+    font-size: 20px;
+}
+
+.main-nav {
+    display:inline-block;
+    box-sizing: border-box;
+    
+    border: 1px solid white;
+    background:black;
+    
+    float:left;
+    text-align:center;
+    
+    width:20%;
+    list-style: none;
+}
+
+.main {
+    width:70%;
+    position:relative;
+    padding-top:5px;
+    padding-bottom:5px;
+    left:15%;
+    height:425px;
+    border: 3px solid white;
+}
+
+.blackbox {
+    box-sizing:border-box;
+    background-color:black;
+    border:3px solid white;
+    text-align:center;
+}
+
+.footquote {
+    width:60%;
+    
+    position: fixed;
+    bottom:15px;
+    left:20%;
+    height:97px;
+    
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+#navlist {
+    padding:20px;
+}
+
+#greet {
+    text-align:center;
+    padding:20px;
+     width:70%;
+    margin-left:15%;
+}
+
+#greet:hover::after {
+    content:"Greet the new day.";
+}
+
+#donate {
+    position:relative;
+    width: 70%;
+    left: 15%;
+}
